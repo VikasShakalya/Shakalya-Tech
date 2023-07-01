@@ -1,0 +1,56 @@
+/* Reset styles and global styles */
+
+/* Header styles */
+
+/* Main styles */
+
+/* Contact section styles */
+.contact {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    margin-bottom: 40px;
+  }
+  
+  #contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Footer styles */
+  

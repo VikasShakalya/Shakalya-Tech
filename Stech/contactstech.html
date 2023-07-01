@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Shakalya Tech</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <style>
+    /* Adjust the frame sizes and positions as desired */
+   #frame1 {
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        width: 25%;
+        height: 25%;
+        border: 1px solid black;
+   }
+        #frame2 {
+        position: absolute;
+        top: 50%;
+        right: 0%;
+        width: 25%;
+        height: 25%;
+        border: 1px solid black
+    }
+</style>
+</head>
+<body>
+<div id="frame1">
+    <iframe src="services.html" frameborder="50"></iframe>
+</div>
+<div id="frame2">
+  <iframe src="portfoliows.html" frameborder="50"></iframe>
+</div>
+  <header>
+    <!-- Header content -->
+  </header>
+
+  <main>
+    <section class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Have a question or want to discuss a project? Get in touch with us.</p>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <!-- Footer content -->
+  </footer>
+
+  <script src="contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+/* Reset styles and global styles */
+
+/* Header styles */
+
+/* Main styles */
+
+/* Article section styles */
+.article {
+    padding: 80px 0;
+  }
+  
+  .article h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .article-meta {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .article-meta p {
+    font-size: 14px;
+  }
+  
+  .article-meta .publish-date {
+    font-weight: bold;
+  }
+  
+  .article-meta .author {
+    font-style: italic;
+  }
+  
+  .article-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .article-content p {
+    margin-bottom: 20px;
+  }
+  
+  .article-content ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  /* Footer styles */
+  

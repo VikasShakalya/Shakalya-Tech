@@ -1,0 +1,97 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #e50914;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #e50914;
+  }
+  
+  .btn-secondary {
+    background-color: transparent;
+    border: 2px solid #fff;
+  }
+  
+  .categories {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  h2 {
+  

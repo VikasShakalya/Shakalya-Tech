@@ -1,0 +1,66 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  header {
+    background-color: #2a2dd6;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  .logo {
+    width: 50px;
+    height: auto;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 40px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .project {
+    margin-bottom: 30px;
+  }
+  
+  .project img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  

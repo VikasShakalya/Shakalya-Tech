@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="portfoliows.css">
+</head>
+<body bgcolor="#87CEEB">
+  <style>
+    /* Adjust the frame sizes and positions as desired */
+   #frame1 {
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        width: 25%;
+        height: 25%;
+        border: 1px solid black;
+   }
+    }
+</style>
+</head>
+<body>
+<div id="frame1">
+    <iframe src="services.html" frameborder="50"></iframe>
+</div>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h1>About Me</h1>
+    <p><b><i>hello everyone, Vikas Shakalya this side.</i></b>I am a web developer with a passion for creating user-friendly and visually appealing websites. With expertise in HTML, CSS, and JavaScript, I strive to deliver high-quality solutions for my clients.</p>
+  </section>
+<hr>
+
+  <section id="projects">
+    <center>
+    <h1>Projects</h1>
+    <hr>
+    <div class="project">
+      <img src="Netflix.png" alt="Project 1">
+      <h2>Project 1</h2>
+      <p>This is a project, I have been completed in an intrenship at bharat intrenship.
+        It is a html and css code to present a webpage like homepage of Netflix.
+      </p>
+    </div>
+    <hr>
+    <div class="project">
+      <img src="temp1.jpg" alt="Project 2">
+      <h2>Project 2</h2>
+      <p>This is a project that i have comleted in an intrenship at bharat intern in which 
+        i have created a tempreature converter using HTML, CSS and JavaScript.</p>
+    </div>
+    </center>
+  </section>
+  <hr>
+
+  <section id="contact">
+    <h1>Contact Me</h1>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <input type="submit" value="Send">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

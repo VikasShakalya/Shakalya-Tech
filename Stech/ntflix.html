@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Homepage</title>
+  <link rel="stylesheet" href="ntflix.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="nt.png" alt="Netflix Logo">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">TV Shows</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">My List</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Unlimited movies, TV shows, and more.</h1>
+      <p>Watch anywhere. Cancel anytime.</p>
+      <button id="get-started-btn">Get Started</button>
+    </div>
+  </header>
+
+  <section class="content">
+    <h2>Popular Picks</h2>
+    <div class="movie-grid">
+      <div class="movie-card" onmouseover="showMovieInfo('Movie 1', 'Description for Movie 1')">
+        <img src="movie1.jpg" alt="Movie 1">
+        <h3>Movie 1</h3>
+      </div>
+      <div class="movie-card" onmouseover="showMovieInfo('Movie 2', 'Description for Movie 2')">
+        <img src="movie2.jpg" alt="Movie 2">
+        <h3>Movie 2</h3>
+      </div>
+      <div class="movie-card" onmouseover="showMovieInfo('Movie 3', 'Description for Movie 3')">
+        <img src="movie3.jpg" alt="Movie 3">
+        <h3>Movie 3</h3>
+      </div>
+      <!-- Add more movie cards here -->
+    </div>
+  </section>
+
+  <div id="movie-info-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modal-movie-title"></h2>
+      <p id="modal-movie-description"></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Netflix Clone</p>
+  </footer>
+
+  <script src="ntflix.js"></script>
+</body>
+</html>
